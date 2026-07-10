@@ -162,6 +162,7 @@ section div p {
     gap: 20px;
     outline:  0.5px solid rgb(233, 232, 232);
     border-radius: 10px;
+    background-color: #ffffff;
     
 }
 
@@ -171,7 +172,44 @@ section div p {
     gap: 20px;
     outline:  0.5px solid rgb(233, 232, 232);
     border-radius: 10px;
+    background-color:#0D1B2A
     
+    
+}
+
+.pricing-sec .card-container .card-2 h4 {
+    color:#1d4ed8;
+    font-size: 0.7rem;
+}
+.pricing-sec .card-container .card-2 h1 {
+    color:#ffffff;
+    font-size: 2.5rem;
+    
+}
+.pricing-sec .card-container .card-2 h5 {
+    color:#807e7e;
+    font-size: 0.7rem;
+}
+.pricing-sec .card-container .card-2 ul {
+    color:#ffffff;
+
+}   
+
+.text-1{
+    color: #807e7e;
+    font-size: 0.7rem;
+}
+
+.text-2{
+    color: #807e7e;
+    font-size: 0.7rem;
+}
+
+.pricing-sec .card-container .card-1 h1{
+    font-size: 2.5rem;
+}
+.pricing-sec .card-container .card-3 h1{
+    font-size: 2.5rem;
 }
 
 .card-3 {
@@ -180,6 +218,7 @@ section div p {
     gap: 20px;
     outline:  0.5px solid rgb(233, 232, 232);
     border-radius: 10px;
+    background-color: #F8F9FB;
     
 }
 
@@ -188,8 +227,13 @@ section div p {
     gap: 15px;
 }
 
+li::marker{
+    color: #1d4ed8; /*doing this line with the help of AI(Chatgpt)*/
+}
+
 .pricing-sec .card-container .card-1 .card-2 .card-3 h5{
     padding: 10px 0px;
+    color: ;
     
 }
 
@@ -197,4 +241,46 @@ section div p {
     text-align: center;
     margin: 5px;
     padding-bottom: 20px;
+}
+
+.pricing-sec{
+    padding: 50px 12%;
+}
+
+.button-1{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 8px;
+    color: #1d4ed8;
+    border-color: #1d4ed8;
+    border-width: 0.5px;
+    cursor: pointer;
+} 
+
+.button-2{
+     padding: 10px;
+    margin: 10px;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #1d4ed8;
+    border: none;
+    border-width: 0.5px;
+    cursor: pointer;
+}
+
+.button-3{
+     padding: 10px;
+    margin: 10px;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 8px;
+    color: #0D1B2A;
+    border-color: #0D1B2A;
+    border-width: 0.5px;
+    cursor: pointer;
+
 }
