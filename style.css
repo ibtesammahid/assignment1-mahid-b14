@@ -15,7 +15,7 @@ nav {
   align-items: center;
 }
 
-.navbar{
+.navbar {
   display: flex;
   list-style: none;
   gap: 10px;
@@ -93,7 +93,7 @@ header {
 section div img {
   width: 100%;
   height: auto;
-  border-radius: 10px 10px 0 0;  /*Here I learned a exelent thing.VS code suggest me this line and it's actually worked */
+  border-radius: 10px 10px 0 0; /*Here I learned an exelent thing.VS code suggest me this line and it's actually worked!! */
 }
 
 section div h6 {
@@ -115,172 +115,302 @@ section div p {
   margin-bottom: 15px;
 }
 
-.Andrej{
-    outline: 0.5px solid rgb(233, 232, 232);
-    margin: 10px;
-    border-radius: 10px;
+.Andrej {
+  outline: 0.5px solid rgb(233, 232, 232);
+  margin: 10px;
+  border-radius: 10px;
 }
 
-.Demis{
-    outline: 0.5px solid rgb(233, 232, 232);
-    margin: 10px;
-    border-radius: 10px;
+.Demis {
+  outline: 0.5px solid rgb(233, 232, 232);
+  margin: 10px;
+  border-radius: 10px;
 }
 
-.Gary{
-    outline: 0.5px solid rgb(233, 232, 232);
-    margin: 10px;
-    border-radius: 10px;
+.Gary {
+  outline: 0.5px solid rgb(233, 232, 232);
+  margin: 10px;
+  border-radius: 10px;
 }
 
-.Mustafa{
-    outline: 0.5px solid rgb(233, 232, 232);
-    margin: 10px;
-    border-radius: 10px;
+.Mustafa {
+  outline: 0.5px solid rgb(233, 232, 232);
+  margin: 10px;
+  border-radius: 10px;
 }
 
-.pricing-sec div p{
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
+.pricing-sec div p {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
 
-.spot{
-    text-align: center;
-    font-weight: bold;
-    font-size: 3rem;
+.spot {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
 }
 
-.pricing-sec .card-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.pricing-sec .card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .card-1 {
-    padding: 30px;
-    margin: 10px;
-    gap: 20px;
-    outline:  0.5px solid rgb(233, 232, 232);
-    border-radius: 10px;
-    background-color: #ffffff;
-    
+  padding: 30px;
+  margin: 10px;
+  gap: 20px;
+  outline: 0.5px solid rgb(233, 232, 232);
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
-.card-2{
-    padding: 30px;
-    margin: 10px;
-    gap: 20px;
-    outline:  0.5px solid rgb(233, 232, 232);
-    border-radius: 10px;
-    background-color:#0D1B2A
-    
-    
+.card-2 {
+  padding: 30px;
+  margin: 10px;
+  gap: 20px;
+  outline: 0.5px solid rgb(233, 232, 232);
+  border-radius: 10px;
+  background-color: #0d1b2a;
 }
 
 .pricing-sec .card-container .card-2 h4 {
-    color:#1d4ed8;
-    font-size: 0.7rem;
+  color: #1d4ed8;
+  font-size: 0.7rem;
 }
 .pricing-sec .card-container .card-2 h1 {
-    color:#ffffff;
-    font-size: 2.5rem;
-    
+  color: #ffffff;
+  font-size: 2.5rem;
 }
 .pricing-sec .card-container .card-2 h5 {
-    color:#807e7e;
-    font-size: 0.7rem;
+  color: #807e7e;
+  font-size: 0.7rem;
 }
 .pricing-sec .card-container .card-2 ul {
-    color:#ffffff;
-
-}   
-
-.text-1{
-    color: #807e7e;
-    font-size: 0.7rem;
+  color: #ffffff;
 }
 
-.text-2{
-    color: #807e7e;
-    font-size: 0.7rem;
+.text-1 {
+  color: #807e7e;
+  font-size: 0.7rem;
 }
 
-.pricing-sec .card-container .card-1 h1{
-    font-size: 2.5rem;
+.text-2 {
+  color: #807e7e;
+  font-size: 0.7rem;
 }
-.pricing-sec .card-container .card-3 h1{
-    font-size: 2.5rem;
+
+.pricing-sec .card-container .card-1 h1 {
+  font-size: 2.5rem;
+}
+.pricing-sec .card-container .card-3 h1 {
+  font-size: 2.5rem;
 }
 
 .card-3 {
-    padding: 30px;
-    margin: 10px;
-    gap: 20px;
-    outline:  0.5px solid rgb(233, 232, 232);
-    border-radius: 10px;
-    background-color: #F8F9FB;
-    
+  padding: 30px;
+  margin: 10px;
+  gap: 20px;
+  outline: 0.5px solid rgb(233, 232, 232);
+  border-radius: 10px;
+  background-color: #f8f9fb;
 }
 
-.card-ul{
-    display: grid;
+.card-ul {
+  display: grid;
+  gap: 15px;
+}
+
+li::marker {
+  color: #1d4ed8; /*doing this line with the help of AI(Chatgpt)*/
+}
+
+.pricing-sec .card-container .card-1 .card-2 .card-3 h5 {
+  padding: 10px 0px;
+}
+
+.pricing-sec .card-container .card-1 .card-2 .card-3 p {
+  text-align: center;
+  margin: 5px;
+  padding-bottom: 20px;
+}
+
+.pricing-sec {
+  padding: 50px 12%;
+}
+
+.button-1 {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  margin-left: 0%;
+  border-radius: 8px;
+  color: #1d4ed8;
+  border-color: #1d4ed8;
+  border-width: 0.5px;
+  cursor: pointer;
+}
+
+.button-2 {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  margin-left: 0%;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #1d4ed8;
+  border: none;
+  border-width: 0.5px;
+  cursor: pointer;
+}
+
+.button-3 {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  margin-left: 0%;
+  border-radius: 8px;
+  color: #0d1b2a;
+  border-color: #0d1b2a;
+  border-width: 0.5px;
+  cursor: pointer;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    padding:80px;
+    background:#f5f5f5;
+}
+
+.box{
+    color:#ffffff;
+    text-align:center;
+    margin:20px;
+}
+
+.box h1{
+    color:#1d4ed8;
+    font-size:60px;
+}
+.box p{
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+.box h2{
+    display: flex;
+    justify-content: center;
+    color: #575757;
+    padding: 20px;
+    margin:auto;
+    font-size: 1.9rem;
+    font-weight: bolder; 
+}
+
+
+.timeline{
+    padding:60px 10%;
+    background:#b7bcc0;
+    color:white;
+}
+
+.step{
+    display:flex;
+    align-items:center;
+    margin:40px 0;
+    padding: 10px;
+}
+
+.circle{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#2563eb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    margin-right:30px;
+}
+
+.content{
+    background:#1f2937;
+    padding:20px;
+    border-radius:10px;
+    flex:1;
+}
+
+/*the footer section is generated by the help of AI. We can use AI in this section was mentioned in the assignment explanation video.*/
+footer{
+    background: #0D1B2A;
+    padding: 40px 8%;
+}
+
+.footer-container{
+    width: 100%;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer-logo img{
+    width: 180px;
+}
+
+
+.footer-social{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social a{
+    color: white;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover{
+    color: #00d4ff;
+    transform: translateY(-4px);
+}
+
+
+hr{
+    border: none;
+    border-top: 1px solid #2b3137;
+    margin: 20px 0;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
-li::marker{
-    color: #1d4ed8; /*doing this line with the help of AI(Chatgpt)*/
+.footer-bottom p{
+    color: #8b949e;
+    margin: 0;
 }
 
-.pricing-sec .card-container .card-1 .card-2 .card-3 h5{
-    padding: 10px 0px;
-    color: ;
-    
+.footer-links{
+    display: flex;
+    gap: 25px;
 }
 
-.pricing-sec .card-container .card-1 .card-2 .card-3 p{
-    text-align: center;
-    margin: 5px;
-    padding-bottom: 20px;
+.footer-links a{
+    color: #8b949e;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-.pricing-sec{
-    padding: 50px 12%;
-}
-
-.button-1{
-    padding: 10px;
-    margin: 10px;
-    width: 100%;
-    margin-left: 0%;
-    border-radius: 8px;
-    color: #1d4ed8;
-    border-color: #1d4ed8;
-    border-width: 0.5px;
-    cursor: pointer;
-} 
-
-.button-2{
-     padding: 10px;
-    margin: 10px;
-    width: 100%;
-    margin-left: 0%;
-    border-radius: 8px;
-    color: #ffffff;
-    background-color: #1d4ed8;
-    border: none;
-    border-width: 0.5px;
-    cursor: pointer;
-}
-
-.button-3{
-     padding: 10px;
-    margin: 10px;
-    width: 100%;
-    margin-left: 0%;
-    border-radius: 8px;
-    color: #0D1B2A;
-    border-color: #0D1B2A;
-    border-width: 0.5px;
-    cursor: pointer;
-
+.footer-links a:hover{
+    color: #00d4ff;
 }
