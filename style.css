@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 50px 6%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 20px 6%;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+  padding: 10px;
+}
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.header-content {
+  color: white;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+
+.chotofont {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.borofont {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.header-content button {
+  width: 25%;
+  margin-left: 38%;
+  
+  
+}
+
+
+.common-button {
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.speaker {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0;
+  margin-top: 20px;
+  
+}
+
+.speakers-sec-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.speakers-sec-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
