@@ -60,10 +60,7 @@ header {
 .header-content button {
   width: 25%;
   margin-left: 38%;
-  
-  
 }
-
 
 .common-button {
   margin: 0;
@@ -78,18 +75,66 @@ header {
 
 .speaker {
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   padding: 20px 0;
-  margin-top: 20px;
-  
+  margin-top: 80px;
 }
 
-.speakers-sec-1{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.speakers-sec-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.speakers-sec-2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.speakers-sec-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+section div img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+section div h6 {
+  color: #1d4ed8;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+section div h2 {
+  padding: 5px 0;
+  margin-left: 15px;
+}
+
+section div p {
+  color: #575757;
+  padding: 5px 0;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.Andrej{
+    outline: 0.5px solid rgb(233, 232, 232);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.Demis{
+    outline: 0.5px solid rgb(233, 232, 232);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.Gary{
+    outline: 0.5px solid rgb(233, 232, 232);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.Mustafa{
+    outline: 0.5px solid rgb(233, 232, 232);
+    margin: 10px;
+    border-radius: 10px;
 }
